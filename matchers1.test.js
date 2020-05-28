@@ -91,5 +91,5 @@ const throwError = function () {
 }
 test('测试异常', () => {
   // expect(throwError).toThrow();
-  expect(throwError).toThrow('this is a error');
+  expect(throwError).toThrow('this is an error');
 })
